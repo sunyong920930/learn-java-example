@@ -7,7 +7,7 @@ import lean.java.example.design.mode.factory.Car;
  */
 public abstract class AbstractFactory {
 
-    public abstract Car getCar();
+    protected abstract Car getCar();
 
     //这段代码就是动态配置的功能
     //固定模式的委派
