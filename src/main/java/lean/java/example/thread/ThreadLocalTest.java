@@ -3,6 +3,7 @@ package lean.java.example.thread;
 /**
  * Created by sunyong on 2018-08-31.
  */
+@SuppressWarnings("Duplicates")
 public class ThreadLocalTest {
 
     private ThreadLocal<Integer> count = new ThreadLocal<Integer>() {
