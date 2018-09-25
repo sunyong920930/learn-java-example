@@ -14,6 +14,8 @@ import java.io.IOException;
 
 public class JsonDemo {
 
+    private String aa;
+
     //初始化
     private static Person init() {
         Person person = new Person();
@@ -98,4 +100,7 @@ public class JsonDemo {
         Person person1 = (Person) hi.readObject();
         System.out.println(person1);
     }
+
+
+
 }
