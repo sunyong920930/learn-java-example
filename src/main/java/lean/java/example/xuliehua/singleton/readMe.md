@@ -1,0 +1,2 @@
+序列化对单例模式的破坏
+https://mp.weixin.qq.com/s?__biz=MzI3NzE0NjcwMg==&mid=2650120643&idx=1&sn=72ffc1018f5fe4451f885be56e972b30&chksm=f36bbce2c41c35f4d18a841b6fcc5688e7ab3d520be46bc72825b16c0d507a31e48f77dcf0fa&scene=21#wechat_redirect
