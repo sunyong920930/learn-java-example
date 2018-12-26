@@ -26,6 +26,8 @@ public class Solution1 {
         // 一个优先队列是无界的，但有一个内部容量管理用于存储在队列中的元素的数组的大小。它总是至少和队列大小一样大。当元素被添加到优先级队列中时，它的容量会自动增长。未指定增长策略的细节。
         // 这个类和它的迭代器实现所有的可选方法的Collection和Iterator接口。方法iterator()提供的迭代器不能保证遍历优先级队列的元素在任何特定的顺序。如果你需要有序遍历，考虑使用Arrays.sort(pq.toArray())。
         // 请注意，此实现不同步。多线程不能访问PriorityQueue实例同时如果线程修改队列。相反，使用线程安全类PriorityBlockingQueue。
+        // 队列的实现不是同步的。不是线程安全的。如果多个线程中的任意线程从结构上修改了列表， 则这些线程不应同时访问 PriorityQueue实例。保证线程安全可以使用PriorityBlockingQueue 类
+        // 不允许使用 null 元素。
         PriorityQueue<Integer> maxHeap = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
