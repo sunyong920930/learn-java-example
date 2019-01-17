@@ -15,7 +15,8 @@ public class Teacher extends Person {
     }
 
     public static void main(String[] args) {
-        Teacher teacher = new Teacher();
+//        Teacher teacher = new Teacher();
 //        System.out.println(this);//编译出错
+            Person p = new Person();
     }
 }

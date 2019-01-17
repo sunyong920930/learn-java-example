@@ -25,10 +25,9 @@ public abstract class Bevegrage {
     // 非公共部分，让子类自己实现
     protected abstract void pourInCup();
 
-    protected void boiltWater() {
+    protected void boiltWater(){
         //公共的部分
         System.out.println("烧水");
     }
 
-    ;
 }
